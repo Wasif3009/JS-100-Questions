@@ -93,3 +93,49 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(quadratic(2, 4, 1));
 ////////////////////////////////////////////////////////////////////////////////
+// DAY 3
+
+//7. JavaScript Program to Convert Kilometers to Miles
+//METHOD 1
+// let Kilometers = 10;
+// let miles = Kilometers / 1.609344;
+// console.log(miles);
+//METHOD 2
+// function kiloToMiles(Kilometers) {
+//   let miles = Kilometers / 1.609344;
+//   return miles;
+// }
+// console.log(kiloToMiles(10));
+////////////////////////////////////////////////////////////////////////////////
+
+//8.Javascript Program to Convert Celsius to Fahrenheit
+//METHOD 1
+// let celsius = 5;
+// let fahrenheitFormula = 9 / 5;
+// let fahrenheit = celsius * fahrenheitFormula + 32;
+// console.log(fahrenheit);
+//METHOD 2
+// function celsiusToFahrenheit(celsius) {
+//   let celsiusInput = celsius;
+//   let fahrenheitFormula = 9 / 5;
+//   let fahrenheit = celsiusInput * fahrenheitFormula + 32;
+//   return fahrenheit;
+// }
+// console.log(celsiusToFahrenheit(10));//50
+// METHOD 3 - BEST WAY
+// function cel(celsius) {
+//   return (celsius * 9) / 5 + 32;
+// }
+// console.log(cel(10));
+////////////////////////////////////////////////////////////////////////////////
+
+// 9.Javascript Program to Generate a Random Number
+//METHOD 1
+// let randomNum = Math.floor(Math.random() * 20) + 1;
+// console.log(randomNum); //GENERATES RANDOM NUMBER B/W 1 TO 20
+//METHOD 2
+// function randomNumber() {
+//   return Math.floor(Math.random() * 20) + 1;
+// }
+// console.log(randomNumber());
+////////////////////////////////////////////////////////////////////////////////
