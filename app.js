@@ -139,3 +139,75 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(randomNumber());
 ////////////////////////////////////////////////////////////////////////////////
+//DAY 4
+
+// 10.JavaScript Program to Find the Largest Among Three Numbers
+//METHOD 1
+// let num1 = 50;
+// let num2 = 20;
+// let num3 = 110;
+// if (num1 > num2 && num1 > num3) {
+//   console.log(num1);
+// } else if (num2 > num1 && num2 > num3) {
+//   console.log(num2);
+// } else if (num3 > num1 && num3 > num2) {
+//   console.log(num3);
+// }
+
+//METHOD 2
+// function largestNum(a, b, c) {
+//   if (a > b && a > c) {
+//     return a;
+//   } else if (b > a && b > c) {
+//     return b;
+//   } else if (c > a && c > b) {
+//     return c;
+//   }
+// }
+// console.log(largestNum(10, 20, 30));
+////////////////////////////////////////////////////////////////////////////////
+// 11.Javascript Program to Check if a Number is Odd or Even
+//METHOD 1
+// let num =   3;
+// if (num % 2 === 0) {
+//   console.log("THIS NUMBER IS EVEN");
+// } else {
+//   console.log("THIS NUMBER IS ODD");//ODD
+// }
+
+//METHOD 2
+// function evenOddCheck(num) {
+//   if (num % 2 === 0) {
+//     return "THIS IS EVEN";
+//   } else {
+//     return "THIS NUMBER IS ODD";
+//   }
+// }
+// console.log(evenOddCheck(100));//EVEN
+////////////////////////////////////////////////////////////////////////////////
+// 12.Javascript Program to Check if a number is Positive, Negative, or Zero
+
+//METHOD 1
+
+// let num = -100;
+// if (num > 0) {
+//   console.log("NUM IS POSITIVE");
+// } else if (num === 0) {
+//   console.log("NUM IS ZERO");
+// } else if (num < 0) {
+//   console.log("NUM IS NEGATIVE");
+// }
+
+//METHOD 2
+
+// function numChecker(num) {
+//   if (num > 0) {
+//     return "POSITIVE";
+//   } else if (num === 0) {
+//     return "ZERO";
+//   } else if (num < 0) {
+//     return "NEGATIVE";
+//   }
+// }
+// console.log(numChecker(-10));//NEGATIVE
+////////////////////////////////////////////////////////////////////////////////
