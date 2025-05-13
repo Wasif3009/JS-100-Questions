@@ -211,3 +211,65 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(numChecker(-10));//NEGATIVE
 ////////////////////////////////////////////////////////////////////////////////
+//13.JavaScript Program to Check Prime Number
+
+//METHOD 1
+// function prime(num) {
+//   let isPrime = false;
+//   if (num === 0) {
+//     return "0 Is not a prime";
+//   } else if (num === 1) {
+//     return "1 is not a prime";
+//   } else if (num > 1) {
+//     isPrime = true;
+//     for (let i = 2; i <= num / 2; i++) {
+//       if (num % i === 0) {
+//         isPrime = false;
+//         break;
+//       }
+//     }
+//   }
+
+//   if (isPrime) {
+//     return "Num is  prime";
+//   } else {
+//     return "Num is not a prime";
+//   }
+// }
+// console.log(prime(23));
+////////////////////////////////////////////////////////////////////////////////
+//14.JavaScript Program to Print All Prime Numbers in an Interval
+
+// function primeInInterval(lowerNum, higherNum) {
+//   for (let i = lowerNum; i <= higherNum; i++) {
+//     let interval = 0;
+//     for (let j = 2; j < i; j++) {
+//       if (i % j === 0) {
+//         interval = 1;
+//         break;
+//       }
+//     }
+//     if (i > 1 && interval === 0) {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// console.log(primeInInterval(2, 10));
+////////////////////////////////////////////////////////////////////////////////
+//15.JavaScript Program to Find the Factorial of a Number
+
+// function factorial(num) {
+//   if (num === 0) {
+//     return `${num} have a Fact of 0`;
+//   } else if (num === 1) {
+//     return `${num} have a Fact of 1`;
+//   } else if (num > 1) {
+//     let fact = 1;
+//     for (let i = 1; i <= num; i++) {
+//       fact *= i;
+//     }
+//     return `${num} have a Fact of  ${fact}`;
+//   }
+// }
+// console.log(factorial(5));
