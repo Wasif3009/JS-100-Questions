@@ -273,3 +273,32 @@ console.log("JS 100 QUESTIONS");
 //   }
 // }
 // console.log(factorial(5));
+////////////////////////////////////////////////////////////////////////////////
+
+//16.Javascript program to display multiplication of number
+
+// function multiplication(num) {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`${num} * ${i} = ${num * i}`);
+//   }
+// }
+// console.log(multiplication(3));
+////////////////////////////////////////////////////////////////////////////////
+//17.Javascript program to print fibonacci series
+
+// function fibonacci(num) {
+//   let n1 = 0,
+//     n2 = 1,
+//     nextTerm;
+
+//   for (let i = 1; i <= num; i++) {
+//     //BAS VALUE KO EK DUSRE MAI INTERCHANGE KARNA H
+//     console.log(n1);
+//     nextTerm = n1 + n2;
+//     n1 = n2;
+//     n2 = nextTerm;
+//   }
+// }
+
+// console.log(fibonacci(10));
+////////////////////////////////////////////////////////////////////////////////
