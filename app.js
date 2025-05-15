@@ -302,3 +302,54 @@ console.log("JS 100 QUESTIONS");
 
 // console.log(fibonacci(10));
 ////////////////////////////////////////////////////////////////////////////////
+//18.JavaScript Program to Make a Simple Calculator
+
+// function calci(opreation, num1, num2) {
+//   if (opreation === "+") {
+//     return num1 + num2;
+//   } else if (opreation === "-") {
+//     return num1 - num2;
+//   } else if (opreation === "*") {
+//     return num1 * num2;
+//   } else if (opreation === "/") {
+//     return num1 / num2;
+//   } else {
+//     return "Please enter a valid opreation";
+//   }
+// }
+
+// console.log(calci("*", 2, 3));//6
+////////////////////////////////////////////////////////////////////////////////
+//19.JavaScript Program to Find the Sum of All Natural Numbers
+
+// function sumNatural(num) {
+//   if (num > 1) {
+//     sum = 0;
+//     for (let i = 0; i <= num; i++) {
+//       sum += i;
+//     }
+//     return `The sum of all natural number is ${sum}`;
+//   } else {
+//     return "Please enter Natural number";
+//   }
+// }
+
+// console.log(sumNatural(5));//15
+////////////////////////////////////////////////////////////////////////////////
+//20.JavaScript Program to Check if the Numbers Have Same Last Digit
+
+// function lastDigit(a, b, c) {
+//   //charAt property batata h ki Us index pe konsa character h
+//   //Aur hum charAt mai Last Index pass karre h length-1 karke Toh usse apne ko last Character mil jayega
+//   const aResult = a.charAt(a.length - 1);
+//   const bResult = b.charAt(b.length - 1);
+//   const cResult = c.charAt(c.length - 1);
+//   if (aResult === bResult && aResult === cResult) {
+//     return `The Last Digit of three numbers is ${cResult}`;
+//   } else {
+//     return `They does not have same last digit`;
+//   }
+// }
+
+// console.log(lastDigit("12", "32", "42")); //Same
+////////////////////////////////////////////////////////////////////////////////
