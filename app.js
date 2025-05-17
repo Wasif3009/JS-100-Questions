@@ -341,6 +341,8 @@ console.log("JS 100 QUESTIONS");
 // function lastDigit(a, b, c) {
 //   //charAt property batata h ki Us index pe konsa character h
 //   //Aur hum charAt mai Last Index pass karre h length-1 karke Toh usse apne ko last Character mil jayega
+//Hum String.at() Method Bhi Use kar sakte the
+//Main ye h ki -1 hi use hoga kyuki -1 last index deta h -2 second last index -3 third last index and so on.
 //   const aResult = a.charAt(a.length - 1);
 //   const bResult = b.charAt(b.length - 1);
 //   const cResult = c.charAt(c.length - 1);
@@ -353,3 +355,10 @@ console.log("JS 100 QUESTIONS");
 
 // console.log(lastDigit("12", "32", "42")); //Same
 ////////////////////////////////////////////////////////////////////////////////
+//21.JavaScript Program to Guess a Random Number
+
+// function randomNum() {
+//   let random = Math.floor(Math.random() * 1000) + 1;
+//   return random;
+// }
+// console.log(randomNum());
