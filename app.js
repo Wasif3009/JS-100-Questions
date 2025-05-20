@@ -362,3 +362,35 @@ console.log("JS 100 QUESTIONS");
 //   return random;
 // }
 // console.log(randomNum());
+////////////////////////////////////////////////////////////////////////////////
+//22.JavaScript Program to Check Whether a String is Palindrome or Not
+// function checkStr(str) {
+//   for (let i = 0; i < str.length / 2; i++) {
+//     if (str[i] === str[str.length - 1 - i])
+//       // It compares the character from the start (string[i]) to the character from the end (string[len - 1 - i]).
+//      { return "IT IS PALINDROME";
+//     }
+//   }
+//   return "IT IS NOT PALINDROME";
+// }
+// console.log(checkStr("madam")); //PALINDROME
+// string[i]: This accesses the character at position i from the start of the string.
+// string[len - 1 - i]: This accesses the character at position i from the end of the string.
+// len - 1 is the index of the last character in the string.
+// So, len - 1 - i gives the matching index from the end when comparing from both sides.
+////////////////////////////////////////////////////////////////////////////////
+//23.JavaScript Program to Sort Words in Alphabetical Order
+// function sort(str) {
+//   return str.split("").sort().join("");
+// }
+// console.log(sort("wasif"));
+//THE SPLIT METHOD CHANGES STRING TO AN ARRAY
+//WHERE THE JOIN CHANGES ARRAY INTO STRING
+////////////////////////////////////////////////////////////////////////////////
+//24.JavaScript Program to Replace Characters of a String
+// function replaceStr(str, value, replace) {
+//   let newStr = str.replace(value, replace);
+//   return newStr;
+// }
+// console.log(replaceStr("Wasif", "as", "dd"));//Wddif
+////////////////////////////////////////////////////////////////////////////////
