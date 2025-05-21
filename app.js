@@ -394,3 +394,38 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(replaceStr("Wasif", "as", "dd"));//Wddif
 ////////////////////////////////////////////////////////////////////////////////
+//25.JavaScript Program to Reverse a String
+
+// function revStr(str) {
+//   let revString = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     revString += str[i];
+//   }
+//   return revString;
+// }
+
+// console.log(revStr("wasif"));
+////////////////////////////////////////////////////////////////////////////////
+//26.JavaScript Program to Check the Number of Occurrences of a Character in the String
+
+// function strCheck(str, letter) {
+//   let count = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] == letter) {
+//       count += 1;
+//     }
+//   }
+//   return count;
+// }
+// console.log(strCheck("aaa", "a")); //3
+////////////////////////////////////////////////////////////////////////////////
+//27.JavaScript Program to Convert the First Letter of a String into UpperCase
+
+// function toUpper(str) {
+//   //Main Thing Here is Slice
+//   let newStr = str[0].toUpperCase() + str.slice(1);
+//   return newStr;
+// }
+
+// console.log(toUpper("wasif"));
+////////////////////////////////////////////////////////////////////////////////
