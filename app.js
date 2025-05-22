@@ -429,3 +429,44 @@ console.log("JS 100 QUESTIONS");
 
 // console.log(toUpper("wasif"));
 ////////////////////////////////////////////////////////////////////////////////
+//28.JavaScript Program to Count the Number of Vowels in a String
+// function vowelCount(str) {
+//   let count = 0;
+//   const vowel = ["a", "e", "i", "o", "u"];
+//   for (let i = 0; i < str.length; i++) {
+//     if (vowel.includes(str[i])) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// console.log(vowelCount("wasif"));//2
+////////////////////////////////////////////////////////////////////////////////
+//29.JavaScript Program to Create Objects in Different Ways
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   greet: function () {
+//     return `Hello ${this.name}`;
+//   },
+//   marks: [89, 90, 95, 65],
+// };
+// console.log(obj.name);
+// console.log(obj.age);
+// console.log(obj.greet());
+// console.log(obj.marks);
+////////////////////////////////////////////////////////////////////////////////
+//30.JavaScript Program to Remove a Property from an Object
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   city: "Mira Road",
+//   college: "TRCAC",
+//   phone: 1234567,
+// };
+
+// delete obj.college;
+// console.log(obj);
+////////////////////////////////////////////////////////////////////////////////
