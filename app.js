@@ -470,3 +470,55 @@ console.log("JS 100 QUESTIONS");
 // delete obj.college;
 // console.log(obj);
 ////////////////////////////////////////////////////////////////////////////////
+//31.JavaScript Program to Check Whether a String Starts and Ends With Certain Characters
+
+// function checkStr(str) {
+//   let first = str[0];
+//   let last = str.charAt(str.length - 1);
+//   for (let i = 0; i < str.length; i++) {
+//     if (first === last) {
+//       return `BOTH CHAR ARE EQUAL`;
+//     }
+//   }
+//   return `NOT EQUAL`;
+// }
+// console.log(checkStr("wasiw")); //EQUAL
+////////////////////////////////////////////////////////////////////////////////
+//32.JavaScript Program to Check if a Key Exists in an Object
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   city: "Mira Road",
+//   college: "TRCAC",
+//   phone: 1234567,
+// };
+
+// // const hasKey = obj.hasOwnProperty("age");
+
+// //OR WE CAN DO THIS STEP LIKE THIS
+
+// const hasKey = "age" in obj;
+
+// if (hasKey) {
+//   console.log("KEY EXIST");
+// } else {
+//   console.log("KEY DOES NOT EXISTS");
+// }
+////////////////////////////////////////////////////////////////////////////////
+//33.JavaScript Program to Clone a JS Object
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   city: "Mira Road",
+//   college: "TRCAC",
+//   phone: 1234567,
+// };
+
+// const copyObj = { ...obj };
+// copyObj.age = 19;
+
+// console.log(obj);
+// console.log(copyObj);
+////////////////////////////////////////////////////////////////////////////////
