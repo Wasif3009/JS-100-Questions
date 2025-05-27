@@ -522,3 +522,53 @@ console.log("JS 100 QUESTIONS");
 // console.log(obj);
 // console.log(copyObj);
 ////////////////////////////////////////////////////////////////////////////////
+//34.JavaScript Program to Loop Through an Object
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   city: "Mira Road",
+//   college: "TRCAC",
+//   phone: 1234567,
+// };
+
+// for (let key in obj) {
+//   let value = obj[key];
+//   console.log(`${key} : ${value}`);
+// }
+////////////////////////////////////////////////////////////////////////////////
+//35.JavaScript Program to Merge Property of Two Objects
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   city: "Mira Road",
+//   college: "TRCAC",
+//   phone: 1234567,
+// };
+
+// const obj2 = {
+//   bloodGroup: "O+",
+//   birthYear: 2005,
+// };
+
+// const mergeObj = Object.assign(obj, obj2);
+// console.log(mergeObj);
+////////////////////////////////////////////////////////////////////////////////
+
+//36.Count the Number of Key in an Object Using for...in
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   city: "Mira Road",
+//   college: "TRCAC",
+//   phone: 1234567,
+// };
+
+// let count = 0;
+// for (let key in obj) {
+//   count++;
+// }
+// console.log(count);
+////////////////////////////////////////////////////////////////////////////////
