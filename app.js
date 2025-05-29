@@ -572,3 +572,38 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(count);
 ////////////////////////////////////////////////////////////////////////////////
+//37.JavaScript Program to Generate Random String
+
+// function randomString(length) {
+//   const characters = "abcdefghijklmnopqrstuvwxyz123456789";
+
+//   let result = "";
+//   for (let i = 0; i < length; i++) {
+//     result += characters.charAt(Math.floor(Math.random() * characters.length));
+//   }
+//   return result;
+// }
+// console.log(randomString(5));
+////////////////////////////////////////////////////////////////////////////////
+//38.JavaScript Program to Check if a String Starts With Another String
+
+// function stringCheck(string, substring) {
+//   for (let i = 0; i < string.length; i++) {
+//     if (string.startsWith(substring)) {
+//       return `YES IT INCLUDES`;
+//     } else {
+//       return `NO IT DOES NOT INCLUDE`;
+//     }
+//   }
+// }
+// console.log(stringCheck("Wasif", "Was"));//INCLUDES
+////////////////////////////////////////////////////////////////////////////////
+
+//39.JavaScript Program to Trim a String
+
+// function trimStr(str) {
+//   return str.trim();
+// }
+
+// console.log(trimStr("            WASIF               "));
+////////////////////////////////////////////////////////////////////////////////
