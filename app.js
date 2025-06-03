@@ -607,3 +607,38 @@ console.log("JS 100 QUESTIONS");
 
 // console.log(trimStr("            WASIF               "));
 ////////////////////////////////////////////////////////////////////////////////
+
+//40 . JavaScript Program to Convert Objects to Strings
+
+// const obj = {
+//   name: "Wasif",
+//   age: 20,
+//   city: "Mira Road",
+//   college: "TRCAC",
+//   phone: 1234567,
+// };
+
+// let strName = String(obj["name"]);
+// console.log(strName);
+////////////////////////////////////////////////////////////////////////////////
+
+//41.JavaScript Program to Compare Two Strings
+
+// function compareStr(str1, str2) {
+//   if (str1.toUpperCase() === str2.toUpperCase()) {
+//     return "YES THEY ARE EQUAL";
+//   }
+//   return "THEY ARE NOT EQUAL";
+// }
+// console.log(compareStr("wasif", "wasif"));
+////////////////////////////////////////////////////////////////////////////////
+//42.JavaScript Program to Check Whether a String Contains a Substring
+
+// function strFunc(str1, subStr) {
+//   if (str1.includes(subStr)) {
+//     return "YES IT CONTAINS SUBSTRING";
+//   }
+//   return "NO IT DOES NOT CONTAIN SUBSTRING";
+// }
+// console.log(strFunc("wasif", "was"));//yes
+////////////////////////////////////////////////////////////////////////////////
