@@ -642,3 +642,28 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(strFunc("wasif", "was"));//yes
 ////////////////////////////////////////////////////////////////////////////////
+//43.JavaScript Program to Replace all Instances of a Character in a String
+
+// function checkInstance(str, change, value) {
+//   return str.split(change).join(value);
+// }
+
+// console.log(checkInstance("wasif", "as", "ww")); //wwwif
+////////////////////////////////////////////////////////////////////////////////
+//44.Replace All Line Breaks Using Built-in Methods
+
+// const str = `I am learing Js.
+// Its funs and easy to learn.
+// Thank you`;
+
+// const result = str.split("\n").join("<br>");
+// console.log(result);
+////////////////////////////////////////////////////////////////////////////////
+//45.JavaScript Program to Display Date and Time
+
+//new Date(year,month,day,hours,minutes,seconds,ms)
+//new Date() without arguments, creates a date object with the current date and time:
+
+// const date = new Date();
+// console.log(date);
+////////////////////////////////////////////////////////////////////////////////
