@@ -667,3 +667,38 @@ console.log("JS 100 QUESTIONS");
 // const date = new Date();
 // console.log(date);
 ////////////////////////////////////////////////////////////////////////////////
+//46.JavaScript Program to Check Leap Year
+
+// function leapYear(year) {
+//   if (year % 4 === 0) {
+//     return `${year} IS LEAP YEAR`;
+//   }
+//   return `${year} IS NOT LEAP YEAR `;
+// }
+
+// console.log(leapYear(2024)); //LEAP YEAR
+////////////////////////////////////////////////////////////////////////////////
+//47.JavaScript Program to Format the Date
+
+// const date = new Date();
+
+// let day = date.getDate();
+// let month = date.getMonth() + 1;
+// const year = date.getFullYear();
+
+// if (day < 10) {
+//   day = "0" + day;
+// }
+
+// if (month < 10) {
+//   month = "0" + month;
+// }
+
+// console.log(`${day} - ${month} - ${year}`);
+////////////////////////////////////////////////////////////////////////////////
+//49.Javascript Program to Display Current Date
+
+// const date = new Date();
+// const result = date.toDateString();
+// console.log(`Date : ${date}`);
+////////////////////////////////////////////////////////////////////////////////
