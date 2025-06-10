@@ -702,3 +702,41 @@ console.log("JS 100 QUESTIONS");
 // const result = date.toDateString();
 // console.log(`Date : ${date}`);
 ////////////////////////////////////////////////////////////////////////////////
+//50.JavaScript Program to Remove Specific Item From an Array
+
+// function removeItem(item) {
+//   const arr = [1, 2, 3, 4, 5, 6, 7];
+//   //THIS INDEX IS IMPORTANT HERE
+//   let index = arr.indexOf(item);
+
+//   arr.splice(index, 1);
+//   return arr;
+// }
+// //return arr;
+
+// console.log(removeItem(3));
+////////////////////////////////////////////////////////////////////////////////
+//51.JavaScript Program to Check if An Array Contains a Specified Value
+
+// function checkArr(value) {
+//   const arr = [1, 2, 3, 4, 5, 6, 7];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === value) {
+//       return "THIS CONTAINS VALUE";
+//     }
+//   }
+//   return "THIS DOES NOT CONTAIN VALUE";
+// }
+// console.log(checkArr(3)); //CONTAINS
+////////////////////////////////////////////////////////////////////////////////
+//52.JavaScript Program to Insert Item in an Array
+
+// function insertItem(item, where) {
+//   const arr = [1, 2, 3, 4, 5, 6, 7];
+
+//   arr.splice(where, 0, item);
+//   return arr;
+// }
+// console.log(insertItem(10, 1));
+////////////////////////////////////////////////////////////////////////////////
