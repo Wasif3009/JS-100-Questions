@@ -740,3 +740,38 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(insertItem(10, 1));
 ////////////////////////////////////////////////////////////////////////////////
+//53.JavaScript Program to Append an Object to an Array
+
+// function insertObj(obj) {
+//   const arr = [1, 2, 3];
+//   arr.push(obj);
+//   return arr;
+// }
+// console.log(insertObj({ name: "WASIF", age: 20, bloodGrp: "o+" }));
+////////////////////////////////////////////////////////////////////////////////
+//54.JavaScript Program to Check if An Object is An Array
+
+// function checkArr(arr) {
+//   const result = Array.isArray(arr);
+
+//   if (result) {
+//     return "yes";
+//   }
+
+//   return "no";
+// }
+// console.log(checkArr([1, 2, 3, 4, 5])); //yes
+////////////////////////////////////////////////////////////////////////////////
+//55.JavaScript Program to Empty an Array
+
+// function emptyArr(arr) {
+//   if (arr.length < 0) {
+//     return "Array is already empty";
+//   } else {
+//     arr.splice(0, arr.length);
+//     return arr;
+//   }
+// }
+
+// console.log(emptyArr([1, 2, 3]));
+////////////////////////////////////////////////////////////////////////////////
