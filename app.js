@@ -775,3 +775,24 @@ console.log("JS 100 QUESTIONS");
 
 // console.log(emptyArr([1, 2, 3]));
 ////////////////////////////////////////////////////////////////////////////////
+//56 .JavaScript Program to Add Element to Start of an Array
+
+// function addElement(element) {
+//   const arr = [1, 2, 3, 4, 5, 6, 7];
+
+//   const result = arr.splice(0, 0, element);
+//   return arr;
+// }
+
+// console.log(addElement(8));
+////////////////////////////////////////////////////////////////////////////////
+//57 .JavaScript Program to Remove Duplicates From Array
+
+// function checkDuplicate() {
+//   const arr = [1, 1, 2, 3, 4, 5, 5, 6, 7];
+
+//   const uniqueArr = [...new Set(arr)];
+//   return uniqueArr;
+// }
+// console.log(checkDuplicate());
+////////////////////////////////////////////////////////////////////////////////
