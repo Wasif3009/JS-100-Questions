@@ -796,3 +796,54 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(checkDuplicate());
 ////////////////////////////////////////////////////////////////////////////////
+// 58. JavaScript Program to Merge Two Arrays and Remove Duplicate Items
+
+// function mergeArr(arr1, arr2) {
+//   const newArr = [...arr1, ...arr2];
+//   const uniqueArr = [...new Set(newArr)];
+//   return uniqueArr;
+// }
+
+// console.log(mergeArr([1, 1, 2, 2], [1, 1, 2, 2, 3, 3]));
+// ////////////////////////////////////////////////////////////////////////////////
+// //59. JavaScript Program to Create Two Dimensional Array
+
+// function twoDimensional(a, b) {
+//   let arr = [];
+//   //CREATING 2D ARRAY
+//   for (let i = 0; i < a; i++) {
+//     for (let j = 0; j < b; j++) {
+//       arr[i] = [];
+//     }
+//   }
+//   //INSERTING ELEMENTS
+//   for (let i = 0; i < a; i++) {
+//     for (let j = 0; j < b; j++) {
+//       arr[i][j] = j;
+//     }
+//   }
+//   return arr;
+// }
+// console.log(twoDimensional(2, 3));
+// ////////////////////////////////////////////////////////////////////////////////
+//60 .JavaScript Program to Compare Elements of Two Arrays
+
+// function compareElement(arr1, arr2) {
+//CHECKS THE LENGTH OF ARRAY
+
+// if (arr1.length === 0 || arr2.length === 0) {
+//   return "ARRAY ARE EMPTY";
+// }
+
+// //COMPARING ELEMENTS
+// for (let i = 0; i < arr1.length; i++) {
+//   if (arr1[i] === arr2[i]) {
+//     return "BOTH ARRAY HAVE SAME ELEMENTS";
+//     } else {
+//       return "THEY DOES NOT HAVE SAME ELEMENTS";
+//     }
+//   }
+// }
+
+// console.log(compareElement([1, 2, 3], [1, 2, 3]));
+// ////////////////////////////////////////////////////////////////////////////////
