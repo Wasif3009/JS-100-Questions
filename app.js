@@ -847,3 +847,51 @@ console.log("JS 100 QUESTIONS");
 
 // console.log(compareElement([1, 2, 3], [1, 2, 3]));
 // ////////////////////////////////////////////////////////////////////////////////
+//61 . Example: Get Random Item From an Array
+
+// function getRandom() {
+//   const array = [1, 2, 3, "hello", true];
+
+//   let random = Math.floor(Math.random() * array.length);
+//   const item = array[random];
+
+//   return item;
+// }
+// console.log(getRandom());
+// ////////////////////////////////////////////////////////////////////////////////
+//62 . JavaScript Program To Perform Intersection Between Two Arrays
+
+// function intersect() {
+//   const arr1 = [1, 3, 5, 7, 9];
+//   const arr2 = [1, 3, 5, 10, 4, 6];
+
+//REMOVING SAME ELEMENTS IN A ARRAY TO AVOID DUPLICATIONS
+//   const setA = new Set(arr1);
+//   const setB = new Set(arr2);
+
+//   const commonArr = [];
+
+//   for (let el of setB) {
+//     if (setA.has(el)) {
+//       commonArr.push(el);
+//     }
+//   }
+//   return commonArr;
+// }
+// console.log(intersect());
+// ////////////////////////////////////////////////////////////////////////////////
+//63 .JavaScript Program to Split Array into Smaller Chunks
+
+// function smallChunk(piece) {
+//   const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//   for (let i = 0; i < array.length; i += piece) {
+//     //TEMPARR LOOP MAI HI DECLARE KARNA PADEGA KYUKI MULTIPLES TEMPARR VARIABLES BANEGE
+//     let tempArr;
+//     tempArr = array.slice(i, i + piece);
+//     //CONSOLE.LOG ISLIYE KYUKI 5 VALUE RETURN KARNA H AUR RETURN KEYWORD SIRF EK VALUE RETURN KARTA H
+//     console.log(tempArr);
+//   }
+// }
+// console.log(smallChunk(2));
+// ////////////////////////////////////////////////////////////////////////////////
