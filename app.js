@@ -858,7 +858,7 @@ console.log("JS 100 QUESTIONS");
 //   return item;
 // }
 // console.log(getRandom());
-// ////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 //62 . JavaScript Program To Perform Intersection Between Two Arrays
 
 // function intersect() {
@@ -879,7 +879,7 @@ console.log("JS 100 QUESTIONS");
 //   return commonArr;
 // }
 // console.log(intersect());
-// ////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 //63 .JavaScript Program to Split Array into Smaller Chunks
 
 // function smallChunk(piece) {
@@ -894,4 +894,31 @@ console.log("JS 100 QUESTIONS");
 //   }
 // }
 // console.log(smallChunk(2));
-// ////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//64 . JavaScript Program To Check If A Variable Is undefined or null
+
+// function checkVariable(dataType) {
+//   //IMP STATEMENT
+//   if (dataType === null || dataType === undefined) {
+//     return "The type is null or undefined";
+//   }
+//   return "The type is not null or undefined";
+// }
+// console.log(checkVariable(undefined));
+//////////////////////////////////////////////////////////////////////////////////
+
+//65 . JavaScript Program to Set a Default Parameter Value For a Function
+// function defaultParam(firstName, name = "Shaikh") {
+//   return `${firstName} ${name}`;
+// }
+// console.log(defaultParam("Wasif")); //Wasif Shaikh
+//////////////////////////////////////////////////////////////////////////////////
+
+//66.Javascript Program to Generate a Random Number Between Two Numbers
+
+// function generateRandom(min, max) {
+//   let random = Math.floor(Math.random() * (max - min + 1)) + min;
+//   return random;
+// }
+// console.log(generateRandom(1, 10)); // Generate random number between 1 and 10
+//////////////////////////////////////////////////////////////////////////////////
