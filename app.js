@@ -922,3 +922,33 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(generateRandom(1, 10)); // Generate random number between 1 and 10
 //////////////////////////////////////////////////////////////////////////////////
+//67 . JavaScript Program to Pass Parameter to a setTimeout() Function
+
+// function setTime() {
+//   setTimeout(() => {
+//     console.log("This is setTimeout");
+//   }, 2000);
+// }
+// console.log(setTime());
+//////////////////////////////////////////////////////////////////////////////////
+//68 . JavaScript Program to Check if a Number is Float or Integer
+
+// function checkNum(num) {
+//   if (typeof num === "number" && !isNaN(num)) {
+//     if (Number.isInteger(num)) {
+//       return "This number is integer";
+//     } else {
+//       return "This number is float";
+//     }
+//   }
+// }
+// console.log(checkNum(0.7));//float
+//////////////////////////////////////////////////////////////////////////////////
+// 69 . JavaScript Program to Remove All Whitespaces From a Text
+
+// function removewhite(str) {
+//   let result = str.split(" ").join("");
+//   return result;
+// }
+// console.log(removewhite("    hello    World   "));//helloWorld
+//////////////////////////////////////////////////////////////////////////////////
