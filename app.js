@@ -1,4 +1,5 @@
 //JS 100 QUESTIONS
+/// PROGRAMIZ
 console.log("JS 100 QUESTIONS");
 ////////////////////////////////////////////////////////////////////////////////
 //DAY 1
@@ -951,4 +952,21 @@ console.log("JS 100 QUESTIONS");
 //   return result;
 // }
 // console.log(removewhite("    hello    World   "));//helloWorld
+//////////////////////////////////////////////////////////////////////////////////
+/// AFTAB BHAI QUESTIONS
+
+//70. Write a function to reverse a string
+
+// function revStr(string) {
+//   let stringMain = "";
+//   for (let i = string.length - 1; i >= 0; i--) {
+//     stringMain += string[i];
+//   }
+//   return stringMain;
+
+//   //DIFFERENT METHOD
+//   // let newStr = string.split("").reverse().join("");
+//   // return newStr;
+// }
+// console.log(revStr("Wasif")); //fisaW
 //////////////////////////////////////////////////////////////////////////////////
