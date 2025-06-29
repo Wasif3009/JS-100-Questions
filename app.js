@@ -970,3 +970,29 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(revStr("Wasif")); //fisaW
 //////////////////////////////////////////////////////////////////////////////////
+//71 . Write a function to find the largest number in an array.
+
+//MY APPROACH
+
+// function largestNum(arr) {
+//   let largeNum = Math.max(...arr);
+//   return largeNum;
+// }
+// console.log(largestNum([20, 40, 100, -100 - 500]));//100
+
+//SECOND APPROACH
+
+// function largestNum(arr) {
+// let largest = -Infinity;
+// let secondlLarge = -Infinity;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//       secondlLarge = largest;
+//       largest = arr[i];
+//     }
+//   }
+//   return largest;
+// }
+// console.log(largestNum([20, 40, 100, -100 - 500]));
+//////////////////////////////////////////////////////////////////////////////////
