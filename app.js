@@ -996,3 +996,26 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(largestNum([20, 40, 100, -100 - 500]));
 //////////////////////////////////////////////////////////////////////////////////
+// 72  Write a program to remove duplicate values from an array.
+
+//FIrst APPROACH
+
+// function removeDupli(arr) {
+//   let duplicateArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!duplicateArr.includes(arr[i])) {
+//       duplicateArr.push(arr[i]);
+//     }
+//   }
+//   return duplicateArr;
+// }
+// console.log(removeDupli([2, 3, 23, 2, 34, 12, 34, 43, 43, 12, 34, 12]));
+
+//MY APPROACH
+
+// function removeDupli(arr) {
+//   let duplicateArr = new Set(arr);
+//   return [...duplicateArr];
+// }
+// console.log(removeDupli([2, 3, 23, 2, 34, 12, 34, 43, 43, 12, 34, 12]));
+//////////////////////////////////////////////////////////////////////////////////
