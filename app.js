@@ -1019,3 +1019,19 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(removeDupli([2, 3, 23, 2, 34, 12, 34, 43, 43, 12, 34, 12]));
 //////////////////////////////////////////////////////////////////////////////////
+//73 .  Write a function to check if a string is a palindrome.
+
+// function palindrome(str) {
+//   let revStr = "";
+
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     revStr += str[i];
+//   }
+//   if (str === revStr) {
+//     return "String Is Palindrome";
+//   } else {
+//     return "Not";
+//   }
+// }
+// console.log(palindrome("level")); //Palindrome
+//////////////////////////////////////////////////////////////////////////////////
