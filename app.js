@@ -1035,3 +1035,15 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(palindrome("level")); //Palindrome
 //////////////////////////////////////////////////////////////////////////////////
+//74 . Write a program to find the factorial of a given number.
+
+// function factorial(n) {
+//   let fact = 1;
+//   for (let i = 1; i <= n; i++) {
+//     fact *= i;
+//THIS ABOVE fact *= i LOOKS LIKE THIS:- 1 * 1 * 2 * 3 * 4 * 5
+//   }
+//   return fact;
+// }
+// console.log(factorial(5));
+//////////////////////////////////////////////////////////////////////////////////
