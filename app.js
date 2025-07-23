@@ -1046,4 +1046,20 @@ console.log("JS 100 QUESTIONS");
 //   return fact;
 // }
 // console.log(factorial(5));
-//////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//75 .Write a function to generate Fibonacci series up to n terms
+
+// function fibonacci(n) {
+//   let firstTerm = 0,
+//     secondTerm = 1,
+//     nextTerm;
+
+//   for (let i = 1; i <= n; i++) {
+//     console.log(firstTerm);
+//     nextTerm = firstTerm + secondTerm;
+//     firstTerm = secondTerm;
+//     secondTerm = nextTerm;
+//   }
+// }
+// fibonacci(10);
+////////////////////////////////////////////////////////////////////////////////
