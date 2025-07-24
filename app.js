@@ -1063,3 +1063,24 @@ console.log("JS 100 QUESTIONS");
 // }
 // fibonacci(10);
 ////////////////////////////////////////////////////////////////////////////////
+//76 . Sum of all numbers in an array.
+
+//1.
+// function sumOfArr(arr) {
+//   let output = arr.reduce((prev, curr) => {
+//     return prev + curr;
+//   });
+//   return output;
+// }
+// console.log(sumOfArr([1, 2, 3, 4, 5]));
+
+//2.
+// function sum(arr) {
+//   let output = null;
+//   for (let i = 0; i < arr.length; i++) {
+//     output += arr[i];
+//   }
+//   return output;
+// }
+// console.log(sum([1, 2, 3, 4, 5]));
+////////////////////////////////////////////////////////////////////////////////
