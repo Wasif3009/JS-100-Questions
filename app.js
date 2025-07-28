@@ -1084,3 +1084,40 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(sum([1, 2, 3, 4, 5]));
 ////////////////////////////////////////////////////////////////////////////////
+// 77 . Find the second largest number in an array.
+
+// function secondLargest(arr) {
+//   let largest = -Infinity;
+//   let secondLargest = -Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//       secondLargest = largest;
+//       largest = arr[i];
+//     } else if (secondLargest < largest && secondLargest <= arr[i]) {
+//       secondLargest = arr[i];
+//     }
+//   }
+//   return secondLargest;
+// }
+// console.log(secondLargest([1, 2, 43, 432, 5346, 7]));
+
+//Start by assuming both largest and secondLargest are very small.
+// This ensures any number in the array will be greater than them.
+// If arr[i] is the biggest number seen so far:
+// Move current largest to secondLargest.
+// Update largest to this new number.
+// If the number is:
+// Smaller than largest, but
+// Bigger than current secondLargest, then update secondLargest.
+// After the loop, we return the second largest value found.
+// Step-by-step:
+// Step	arr[i]	largest	secondLargest
+// 1	1	1	-Infinity
+// 2	2	2	1
+// 3	43	43	2
+// 4	432	432	43
+// 5	5346	5346	432
+// 6	7562	7562	5346
+// 7	7	7562	5346 (unchanged)
+
+////////////////////////////////////////////////////////////////////////////////
