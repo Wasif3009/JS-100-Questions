@@ -1121,3 +1121,29 @@ console.log("JS 100 QUESTIONS");
 // 7	7	7562	5346 (unchanged)
 
 ////////////////////////////////////////////////////////////////////////////////
+
+//77 .Write a function to check if a number is prime.
+
+// function checkPrime(num) {
+//   if (num <= 1) {
+//     console.log("Neither Prime nor Composite");
+//     return false;
+//   }
+
+//   if (num === 2) {
+//     return true; // 2 is prime
+//   }
+
+//   if (num % 2 === 0) {
+//     return false; // even numbers > 2 are not prime
+//   }
+
+//   for (let i = 1; i <= Math.sqrt(num); i++) {
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
+// console.log(checkPrime(4)); //false
