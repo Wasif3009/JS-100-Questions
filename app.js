@@ -1153,10 +1153,9 @@ console.log("JS 100 QUESTIONS");
 // 78 . Write a function to find smallest number in an array
 
 // function smallest(arr) {
-//   const output = Math.min(...arr);
-//   return output;
+//   return Math.min(...arr);
 // }
-// console.log(smallest([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])); //0
+// console.log(smallest([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, -100])); //0
 
 // function smallNum(arr) {
 //   let prev = Infinity;
