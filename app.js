@@ -1147,3 +1147,24 @@ console.log("JS 100 QUESTIONS");
 //   return true;
 // }
 // console.log(checkPrime(4)); //false
+
+////////////////////////////////////////////////////////////////////////////////
+
+// 78 . Write a function to find smallest number in an array
+
+// function smallest(arr) {
+//   const output = Math.min(...arr);
+//   return output;
+// }
+// console.log(smallest([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])); //0
+
+// function smallNum(arr) {
+//   let prev = Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (prev > arr[i]) prev = arr[i];
+//   }
+//   return prev;
+// }
+// console.log(smallNum([4, 5, 6, 7, 8, 9, -1]));
+
+////////////////////////////////////////////////////////////////////////////////
