@@ -1167,3 +1167,14 @@ console.log("JS 100 QUESTIONS");
 // console.log(smallNum([4, 5, 6, 7, 8, 9, -1]));
 
 ////////////////////////////////////////////////////////////////////////////////
+//79 .Write a function to count the number of words in a string.
+
+// function countWord(str) {
+//   let result = null;
+//   for (let i = 0; i < str.length; i++) {
+//     result++;
+//   }
+//   return result;
+// }
+// console.log(countWord("wasif"));
+////////////////////////////////////////////////////////////////////////////////
