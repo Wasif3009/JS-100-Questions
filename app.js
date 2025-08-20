@@ -1178,3 +1178,13 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(countWord("wasif"));
 ////////////////////////////////////////////////////////////////////////////////
+//80. Write a function to cheak a give year is Leap year or not.
+
+// function leapYear(year) {
+//   if (year % 4 === 0) {
+//     return `${year} Is leap year`;
+//   }
+//   return `${year} is not a leap`;
+// }
+// console.log(leapYear(2024));
+////////////////////////////////////////////////////////////////////////////////
