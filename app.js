@@ -1188,3 +1188,19 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(leapYear(2024));
 ////////////////////////////////////////////////////////////////////////////////
+//81. Write a function to remove vowels from a string.
+
+// function removeVowels(str) {
+//   const vowels = "aeiou".split("");
+//   let result = [];
+//   for (let i = 0; i < str.length; i++) {
+//     if (vowels.includes(str[i])) {
+//       result.push(str[i]);
+//     }
+//   }
+//   return result;
+// }
+// console.log(removeVowels("wasif"));
+
+//.includes sirf array pe chalta h string pe nahi
+////////////////////////////////////////////////////////////////////////////////
