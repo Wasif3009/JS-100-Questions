@@ -1204,3 +1204,41 @@ console.log("JS 100 QUESTIONS");
 
 //.includes sirf array pe chalta h string pe nahi
 ////////////////////////////////////////////////////////////////////////////////
+//.82.Write a function to check if a string contains only digits.
+
+//MY METHOD
+
+// function checkNum(str) {
+//   const arr = ["1", "2", "3", "4", " 5", " 6", "7", "8", "9"];
+//   for (let i = 0; i < str.length; i++) {
+//     if (arr[i].includes(str[i])) {
+//       return "YES";
+//     }
+//   }
+//   return "no";
+// }
+// console.log(checkNum("123"));
+
+//AFTAB METHOD
+
+// function checkNum(str) {
+//   return str !== " " && str.split("").every((chr) => chr >= "0" && chr <= "9");
+// }
+
+// console.log(checkNum("1"));
+
+//EXPLANATION
+
+// str !== " "
+// Ensures the string is not exactly a single space " ".
+// But ⚠️ this won’t prevent cases like " " (multiple spaces) or "" (empty string).
+
+// str.split("")
+// Splits the string into an array of characters.
+// Example: "123" → ["1", "2", "3"].
+
+// .every((chr) => chr >= "0" && chr <= "9")
+// Checks that every character in the string lies between "0" and "9".
+// This ensures only digits are allowed.
+
+////////////////////////////////////////////////////////////////////////////////
