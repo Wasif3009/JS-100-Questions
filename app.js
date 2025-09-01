@@ -1242,3 +1242,16 @@ console.log("JS 100 QUESTIONS");
 // This ensures only digits are allowed.
 
 ////////////////////////////////////////////////////////////////////////////////
+
+//83 .  Write a function to find the sum of digits of a number.
+
+// function sumOfDigits(num) {
+//   let toStr = num.toString();
+//   let result = 0;
+//   for (let i = 0; i < toStr.length; i++) {
+//     result += Number(toStr[i]);
+//   }
+//   return result;
+// }
+// console.log(sumOfDigits(21233)); //11
+////////////////////////////////////////////////////////////////////////////////
