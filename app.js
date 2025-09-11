@@ -1178,3 +1178,19 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(countWord("wasif"));
 ////////////////////////////////////////////////////////////////////////////////
+//80 . Write a function for fibonacci series
+
+// function fibonacci(term) {
+//   let firstTerm = 0;
+//   let secondTerm = 1;
+//   let nextTerm;
+
+//   for (let i = 1; i <= term; i++) {
+//     console.log(firstTerm);
+//     nextTerm = firstTerm + secondTerm;
+//     firstTerm = secondTerm;
+//     secondTerm = nextTerm;
+//   }
+// }
+// console.log(fibonacci(10));
+////////////////////////////////////////////////////////////////////////////////
