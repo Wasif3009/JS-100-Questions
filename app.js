@@ -1209,3 +1209,31 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(palindrome("madam")); // Palindrome
 ////////////////////////////////////////////////////////////////////////////////
+// Fibonacci Practice
+
+// function fibonacci(term) {
+//   let first = 0;
+//   let second = 1;
+//   let next;
+//   for (let i = 0; i < term; i++) {
+//     console.log(first);
+//     next = first + second;
+//     first = second;
+//     second = next;
+//   }
+// }
+// console.log(fibonacci(5));
+////////////////////////////////////////////////////////////////////////////////
+//Palindrome
+// function palindrome(str) {
+//   let revStr = "";
+//   for (i = str.length - 1; i >= 0; i--) {
+//     revStr += str[i];
+//   }
+//   if (str === revStr) {
+//     return "Palindrome";
+//   }
+//   return "Not";
+// }
+// console.log(palindrome("level"));
+////////////////////////////////////////////////////////////////////////////////
