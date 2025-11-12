@@ -1178,6 +1178,7 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(countWord("wasif"));
 ////////////////////////////////////////////////////////////////////////////////
+
 //80. Write a function to cheak a give year is Leap year or not.
 
 // function leapYear(year) {
@@ -1268,3 +1269,105 @@ function fibonacci(n) {
   }
 }
 console.log(fibonacci(10));
+
+//80 . Write a function for fibonacci series
+
+// function fibonacci(term) {
+//   let firstTerm = 0;
+//   let secondTerm = 1;
+//   let nextTerm;
+
+//   for (let i = 1; i <= term; i++) {
+//     console.log(firstTerm);
+//     nextTerm = firstTerm + secondTerm;
+//     firstTerm = secondTerm;
+//     secondTerm = nextTerm;
+//   }
+// }
+// console.log(fibonacci(10));
+////////////////////////////////////////////////////////////////////////////////
+// 81  . WRITE A FUNCTION TO CHECK IF A STRING IS PALINDROME
+
+// function palindrome(str) {
+//   let revStr = "";
+
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     revStr += str[i];
+//   }
+//   if (str === revStr) {
+//     return "Palindrome";
+//   }
+//   return "Not";
+// }
+// console.log(palindrome("madam")); // Palindrome
+////////////////////////////////////////////////////////////////////////////////
+// Fibonacci Practice
+
+// function fibonacci(term) {
+//   let first = 0;
+//   let second = 1;
+//   let next;
+//   for (let i = 0; i < term; i++) {
+//     console.log(first);
+//     next = first + second;
+//     first = second;
+//     second = next;
+//   }
+// }
+// console.log(fibonacci(5));
+////////////////////////////////////////////////////////////////////////////////
+//Palindrome
+// function palindrome(str) {
+//   let revStr = "";
+//   for (i = str.length - 1; i >= 0; i--) {
+//     revStr += str[i];
+//   }
+//   if (str === revStr) {
+//     return "Palindrome";
+//   }
+//   return "Not";
+// }
+// console.log(palindrome("level"));
+////////////////////////////////////////////////////////////////////////////////
+//Fibonacci
+
+// function fibonacci(term) {
+//   let first = 0,
+//     second = 1,
+//     next;
+//   for (let i = 0; i < term; i++) {
+//     console.log(first);
+//     next = first + second;
+//     first = second;
+//     second = next;
+//   }
+// }
+// console.log(fibonacci(10));
+////////////////////////////////////////////////////////////////////////////////
+//Palindrome
+
+// function palindrome(str) {
+//   let revStr = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     revStr += str[i];
+//   }
+//   if (str === revStr) {
+//     return "palindrome";
+//   }
+//   return "not a palindrome";
+// }
+// console.log(palindrome("level"));
+////////////////////////////////////////////////////////////////////////////////
+
+// function fibonacci(term) {
+//   let first = 0,
+//     second = 1,
+//     next;
+//   for (let i = 0; i < term; i++) {
+//     console.log(first);
+//     next = first + second;
+//     first = second;
+//     second = next;
+//   }
+// }
+// console.log(fibonacci(10));
