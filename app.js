@@ -1257,18 +1257,18 @@ console.log("JS 100 QUESTIONS");
 // console.log(sumOfDigits(21233)); //11
 ////////////////////////////////////////////////////////////////////////////////
 
-function fibonacci(n) {
-  let first = 0;
-  let second = 1;
-  let next;
-  for (let i = 0; i < n; i++) {
-    console.log(first);
-    next = first + second;
-    first = second;
-    second = next;
-  }
-}
-console.log(fibonacci(10));
+// function fibonacci(n) {
+//   let first = 0;
+//   let second = 1;
+//   let next;
+//   for (let i = 0; i < n; i++) {
+//     console.log(first);
+//     next = first + second;
+//     first = second;
+//     second = next;
+//   }
+// }
+// console.log(fibonacci(10));
 
 //80 . Write a function for fibonacci series
 
@@ -1371,3 +1371,16 @@ console.log(fibonacci(10));
 //   }
 // }
 // console.log(fibonacci(10));
+////////////////////////////////////////////////////////////////////////////////
+
+// function floyd(n) {
+//   for (let i = 1; i <= n; i++) {
+//     let row = "";
+//     for (let j = 1; j <= i; j++) {
+//       row += "*";
+//     }
+//     console.log(row);
+//   }
+// }
+// console.log(floyd(5));
+////////////////////////////////////////////////////////////////////////////////
