@@ -1384,3 +1384,35 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(floyd(5));
 ////////////////////////////////////////////////////////////////////////////////
+
+// Restart
+
+//Fibonacci Series
+
+// function fibonacci(n) {
+//   let first = 0,
+//     second = 1,
+//     next;
+//   for (let i = 0; i < n; i++) {
+//     console.log(first);
+//     next = first + second;
+//     first = second;
+//     second = next;
+//   }
+// }
+// console.log(fibonacci(5));
+
+////////////////////////////////////////////////////////////////////////////////
+
+//JavaScript Program to Find the Sum of All Natural Numbers
+
+// function sum(arr) {
+//   let add = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     add += arr[i];
+//   }
+//   return add;
+// }
+// console.log(sum([10, 20, 30]));
+////////////////////////////////////////////////////////////////////////////////
