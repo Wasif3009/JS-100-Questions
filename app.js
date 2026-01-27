@@ -1416,3 +1416,25 @@ console.log("JS 100 QUESTIONS");
 // }
 // console.log(sum([10, 20, 30]));
 ////////////////////////////////////////////////////////////////////////////////
+
+//ChatGpt 50 Questions
+
+// 1.Check whether a number is even or odd.
+
+// function checkEvenOdd(num) {
+//   if (num % 2 === 0) {
+//     return "Even";
+//   }
+//   return "Odd";
+// }
+// console.log(checkEvenOdd(2));
+
+// 2.Find the largest of two numbers.
+
+// function findLargest(a, b) {
+//   if (a > b) {
+//     return `${a} is bigger`;
+//   }
+//   return `${b} is bigger`;
+// }
+// console.log(findLargest(30, 15));
