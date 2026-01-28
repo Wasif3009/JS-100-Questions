@@ -1419,6 +1419,116 @@ console.log("JS 100 QUESTIONS");
 
 //ChatGpt 50 Questions
 
+// Find the sum of numbers in an array.
+
+// Reverse a string.
+
+// Check if a string is a palindrome.
+
+// Find the factorial of a number.
+
+// Print the Fibonacci series up to N terms.
+
+// Count vowels in a string.
+
+// Find the smallest element in an array.
+
+// Check if a number is prime.
+
+// Remove duplicate elements from an array.
+
+// Convert Celsius to Fahrenheit.
+
+// 🟡 INTERMEDIATE CODING QUESTIONS (16–35)
+
+// Focus: arrays, objects, strings, logic
+
+// Arrays
+
+// Find the second largest element in an array.
+
+// Sort an array without using sort().
+
+// Find missing number in an array of 1–N.
+
+// Find the intersection of two arrays.
+
+// Find the union of two arrays.
+
+// Count occurrences of elements in an array.
+
+// Move all zeroes to the end of an array.
+
+// Check if two arrays are equal.
+
+// Rotate an array left by K positions.
+
+// Find maximum sum of subarray (Kadane’s Algorithm – basic version).
+
+// Strings
+
+// Find the first non-repeating character in a string.
+
+// Check if two strings are anagrams.
+
+// Count words in a sentence.
+
+// Find the longest word in a string.
+
+// Capitalize the first letter of each word.
+
+// Objects
+
+// Convert an object into an array of keys & values.
+
+// Merge two objects.
+
+// Find the sum of values in an object.
+
+// Deep clone an object.
+
+// Remove a property from an object without mutating it.
+
+// 🔴 ADVANCED CODING QUESTIONS (36–50)
+
+// Focus: async, closures, real interview logic
+
+// Functions & Closures
+
+// Create a counter function using closure.
+
+// Write a function that runs only once.
+
+// Implement currying function.
+
+// Write a memoization function.
+
+// Async JavaScript
+
+// Write a Promise that resolves after 2 seconds.
+
+// Convert callback-based code to Promise.
+
+// Use async/await to fetch API data.
+
+// Handle API errors using try...catch.
+
+// Performance & Real Scenarios
+
+// Implement debouncing.
+
+// Implement throttling.
+
+// Flatten a nested array.
+
+// Find duplicate characters in a string.
+
+// Polyfill for map().
+
+// Polyfill for bind().
+
+// Explain and code event delegation.
+
 // 1.Check whether a number is even or odd.
 
 // function checkEvenOdd(num) {
@@ -1438,3 +1548,24 @@ console.log("JS 100 QUESTIONS");
 //   return `${b} is bigger`;
 // }
 // console.log(findLargest(30, 15));
+
+// 3.Find the largest of three numbers.
+
+// function largest(a, b, c) {
+//   if (a > b && a > c) {
+//     return `${a} is biggest`;
+//   } else if (b > a && b > c) {
+//     return `${b} is biggest`;
+//   }
+//   return `${c} is biggest`;
+// }
+// console.log(largest(50, 40, 100));
+
+// 4.Print numbers from 1 to 10 using a loop.
+
+// function loop() {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+//   }
+// }
+// console.log(loop());
