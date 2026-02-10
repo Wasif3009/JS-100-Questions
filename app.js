@@ -1569,3 +1569,26 @@ console.log("JS 100 QUESTIONS");
 //   }
 // }
 // console.log(loop());
+
+//5.Find the sum of numbers in an array.
+
+// function sum(arr) {
+//   let total = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     total += arr[i];
+//   }
+//   return total;
+// }
+
+// console.log(sum([1, 2, 3, 4]));
+
+//6.Reverse a string.
+
+// function revStr(string) {
+//   let rev = "";
+//   for (let i = string.length - 1; i >= 0; i--) {
+//     rev += string[i];
+//   }
+//   return rev;
+// }
+// console.log(revStr("esrever")); //reverse
