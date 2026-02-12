@@ -1419,6 +1419,16 @@ console.log("JS 100 QUESTIONS");
 
 //ChatGpt 50 Questions
 
+// Print "Hello World" in JavaScript.
+
+// Check whether a number is even or odd.
+
+// Find the largest of two numbers.
+
+// Find the largest of three numbers.
+
+// Print numbers from 1 to 10 using a loop.
+
 // Find the sum of numbers in an array.
 
 // Reverse a string.
@@ -1592,3 +1602,31 @@ console.log("JS 100 QUESTIONS");
 //   return rev;
 // }
 // console.log(revStr("esrever")); //reverse
+
+// 7 . Check if a string is a palindrome.
+
+// function palindrome(str) {
+//   let revStr = "";
+
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     revStr += str[i];
+//   }
+
+//   if (str === revStr) {
+//     return "Palindrome";
+//   }
+//   return "Not a palindrome";
+// }
+
+// console.log(palindrome("level"));
+
+// 8 . Find the factorial of a number.
+
+// const factorial = (n) => {
+//   let result = n * n;
+//   return result;
+// };
+
+// console.log(factorial(5));
+
+// 9 .
