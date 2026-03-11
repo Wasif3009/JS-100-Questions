@@ -1629,4 +1629,71 @@ console.log("JS 100 QUESTIONS");
 
 // console.log(factorial(5));
 
-// 9 .
+// 9 .Find the smallest element in an array.
+
+// function smallNum(num) {
+//   let output = Math.min(...num);
+//   return output;
+// }
+
+// console.log(smallNum([2, 3, 4, 5]));
+
+//IMP QUESTION
+
+// function smallNum(num) {
+//   let smallest = num[0];
+
+//   for (let i = 0; i < num.length; i++) {
+//     if (num[i] < smallest) {
+//       smallest = num[i];
+//     }
+//   }
+//   return smallest;
+// }
+// console.log(smallNum([12, 5, 13, 2]));
+
+//10.Remove duplicate elements from an array.
+
+// function duplicate(arr) {
+//   return [...new Set(arr)];
+// }
+// console.log(duplicate([1, 2, 3, 1, 4, 5, 6, 5]));
+
+// IMP QUESTION
+
+// function duplicate(arr) {
+//   let result = [];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!result.includes(arr[i])) {
+//       result.push(arr[i]);
+//     }
+//   }
+//   return result;
+// }
+// console.log(duplicate([1, 2, 3, 1, 4, 5, 6, 5]));
+
+// function duplicateArr(arr) {
+//   let output = [];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!output.includes(arr[i])) {
+//       output.push(arr[i]);
+//     }
+//   }
+//   return output;
+// }
+
+// console.log(duplicateArr([11, 22, 3, 3, 4, 5, 5, 6, 6, 10]));
+
+// function smallEl(arr) {
+//   let smallest = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < smallest) {
+//       smallest = arr[i];
+//     }
+//   }
+//   return smallest;
+// }
+
+// console.log(smallEl([10,20,30,4]));
